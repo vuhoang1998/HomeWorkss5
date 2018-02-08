@@ -12,7 +12,8 @@ import com.github.clans.fab.FloatingActionButton;
 
 public class MainActivity extends AppCompatActivity {
     private FloatingActionButton fbAdd;
-    int images[] = {R.drawable.food_1, R.drawable.food_2, R.drawable.food_3, R.drawable.food_4, R.drawable.food_5};
+    public static int images[] = {R.drawable.food_1, R.drawable.food_2, R.drawable.food_3, R.drawable.food_4, R.drawable.food_5};
+    public static String string[] = {"pic1","pic2","pic3","pic4","pic5"};
     int currentimage;
     private GridView gvimages;
 
