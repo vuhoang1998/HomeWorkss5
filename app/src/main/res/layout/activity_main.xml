@@ -4,13 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.admin.myapplication.MainActivity">
-
+    tools:context="com.example.admin.myapplication.MainActivity"
+    android:background="#FF000000"
+    >
 
     <GridView
         android:id="@+id/gv_images"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:horizontalSpacing="2dp"
+        android:verticalSpacing="2dp"
         android:numColumns="3">
 
     </GridView>

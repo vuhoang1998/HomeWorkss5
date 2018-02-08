@@ -62,6 +62,7 @@ class GridImageAdapter extends BaseAdapter {
 
 
         LinearLayout ll = new LinearLayout(context);
+        ll.setBackgroundColor(Color.parseColor("#FFFFFF"));
         ll.setLayoutParams(
                 new AbsListView.LayoutParams(
                         AbsListView.LayoutParams.MATCH_PARENT, 350));
